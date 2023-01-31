@@ -346,6 +346,11 @@
 "Assets/Framework/Execution/Executors.cs"
 "Assets/Framework/Execution/IMainLoopExecutor.cs"
 "Assets/Framework/Execution/MainLoopExecutor.cs"
+"Assets/Framework/Services/DuplicateRegisterServiceException.cs"
+"Assets/Framework/Services/IServiceContainer.cs"
+"Assets/Framework/Services/IServiceLocator.cs"
+"Assets/Framework/Services/IServiceRegistry.cs"
+"Assets/Framework/Services/ServiceContainer.cs"
 -langversion:9.0
 
 /deterministic

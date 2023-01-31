@@ -47,6 +47,11 @@
      <Compile Include="Assets/Framework/Execution/MainLoopExecutor.cs" />
      <Compile Include="Assets/Framework/Execution/AbstractExecutor.cs" />
      <Compile Include="Assets/Framework/Execution/Executors.cs" />
+     <Compile Include="Assets/Framework/Services/IServiceContainer.cs" />
+     <Compile Include="Assets/Framework/Services/IServiceLocator.cs" />
+     <Compile Include="Assets/Framework/Services/IServiceRegistry.cs" />
+     <Compile Include="Assets/Framework/Services/ServiceContainer.cs" />
+     <Compile Include="Assets/Framework/Services/DuplicateRegisterServiceException.cs" />
      <None Include="Assets/Framework/MyFramework.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.6f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
