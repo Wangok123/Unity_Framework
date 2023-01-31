@@ -42,6 +42,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Framework/Contexts/Context.cs" />
+     <Compile Include="Assets/Framework/Contexts/ApplicationContext.cs" />
+     <Compile Include="Assets/Framework/Execution/IMainLoopExecutor.cs" />
+     <Compile Include="Assets/Framework/Execution/MainLoopExecutor.cs" />
+     <Compile Include="Assets/Framework/Execution/AbstractExecutor.cs" />
+     <Compile Include="Assets/Framework/Execution/Executors.cs" />
      <None Include="Assets/Framework/MyFramework.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.6f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
