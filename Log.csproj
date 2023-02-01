@@ -42,10 +42,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Log/ILog.cs" />
+     <Compile Include="Assets/Log/DefaultLogFactory.cs" />
      <Compile Include="Assets/Log/ILogFactory.cs" />
      <Compile Include="Assets/Log/Level.cs" />
      <Compile Include="Assets/Log/LogManager.cs" />
-     <Compile Include="Assets/Log/DefaultLogFactory.cs" />
      <None Include="Assets/Log/Log.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.6f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

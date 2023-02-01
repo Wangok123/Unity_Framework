@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFramework", "MyFramework.csproj", "{0b5e4b80-4d76-c0f0-0f0b-09d6e510f0bc}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log.csproj", "{ed8d991c-28d0-40c6-a8b3-f336a80d618b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFramework", "MyFramework.csproj", "{0b5e4b80-4d76-c0f0-0f0b-09d6e510f0bc}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0b5e4b80-4d76-c0f0-0f0b-09d6e510f0bc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0b5e4b80-4d76-c0f0-0f0b-09d6e510f0bc}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ed8d991c-28d0-40c6-a8b3-f336a80d618b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ed8d991c-28d0-40c6-a8b3-f336a80d618b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0b5e4b80-4d76-c0f0-0f0b-09d6e510f0bc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0b5e4b80-4d76-c0f0-0f0b-09d6e510f0bc}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

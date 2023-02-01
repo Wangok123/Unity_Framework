@@ -41,17 +41,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Framework/Contexts/Context.cs" />
      <Compile Include="Assets/Framework/Contexts/ApplicationContext.cs" />
-     <Compile Include="Assets/Framework/Execution/IMainLoopExecutor.cs" />
-     <Compile Include="Assets/Framework/Execution/MainLoopExecutor.cs" />
-     <Compile Include="Assets/Framework/Execution/AbstractExecutor.cs" />
      <Compile Include="Assets/Framework/Execution/Executors.cs" />
-     <Compile Include="Assets/Framework/Services/IServiceContainer.cs" />
-     <Compile Include="Assets/Framework/Services/IServiceLocator.cs" />
-     <Compile Include="Assets/Framework/Services/IServiceRegistry.cs" />
-     <Compile Include="Assets/Framework/Services/ServiceContainer.cs" />
+     <Compile Include="Assets/Framework/Execution/IMainLoopExecutor.cs" />
      <Compile Include="Assets/Framework/Services/DuplicateRegisterServiceException.cs" />
+     <Compile Include="Assets/Framework/Services/ServiceContainer.cs" />
+     <Compile Include="Assets/Framework/Services/IServiceRegistry.cs" />
+     <Compile Include="Assets/Framework/Services/IServiceLocator.cs" />
+     <Compile Include="Assets/Framework/Contexts/Context.cs" />
+     <Compile Include="Assets/Framework/Execution/MainLoopExecutor.cs" />
+     <Compile Include="Assets/Framework/Services/IServiceContainer.cs" />
+     <Compile Include="Assets/Framework/Execution/AbstractExecutor.cs" />
+     <Compile Include="Assets/Framework/Views/Window/IWindow.cs" />
+     <Compile Include="Assets/Framework/Asynchronous/Callbackable.cs" />
+     <Compile Include="Assets/Framework/Views/Animations/IAnimation.cs" />
+     <Compile Include="Assets/Framework/Views/IBundle.cs" />
+     <Compile Include="Assets/Framework/Asynchronous/IAsyncResult.cs" />
+     <Compile Include="Assets/Framework/Asynchronous/ISynchronizable.cs" />
+     <Compile Include="Assets/Framework/Views/Window/IWindowManager.cs" />
+     <Compile Include="Assets/Framework/Views/ITransition.cs" />
      <None Include="Assets/Framework/MyFramework.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.6f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
