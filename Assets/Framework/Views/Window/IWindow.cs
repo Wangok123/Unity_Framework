@@ -1,4 +1,5 @@
 using System;
+using GameCore.Framework.Views.Transitions;
 
 namespace GameCore.Framework.Views
 {

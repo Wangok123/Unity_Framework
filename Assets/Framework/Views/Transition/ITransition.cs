@@ -1,6 +1,6 @@
 using System;
 
-namespace GameCore.Framework.Views
+namespace GameCore.Framework.Views.Transitions
 {
     public interface ITransition
     {

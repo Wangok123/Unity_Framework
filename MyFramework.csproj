@@ -59,7 +59,12 @@
      <Compile Include="Assets/Framework/Asynchronous/IAsyncResult.cs" />
      <Compile Include="Assets/Framework/Asynchronous/ISynchronizable.cs" />
      <Compile Include="Assets/Framework/Views/Window/IWindowManager.cs" />
-     <Compile Include="Assets/Framework/Views/ITransition.cs" />
+     <Compile Include="Assets/Framework/Views/Transition/ITransition.cs" />
+     <Compile Include="Assets/Framework/Runtime/Views/Window/WindowManager.cs" />
+     <Compile Include="Assets/Framework/Runtime/Execution/MainThreadExecutor.cs" />
+     <Compile Include="Assets/Framework/Views/Transition/Transition.cs" />
+     <Compile Include="Assets/Framework/Views/IManageable.cs" />
+     <Compile Include="Assets/Framework/Views/Transition/ShowTransition.cs" />
      <None Include="Assets/Framework/MyFramework.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.6f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -732,6 +737,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Log.csproj">
+      <Project>{ed8d991c-28d0-40c6-a8b3-f336a80d618b}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

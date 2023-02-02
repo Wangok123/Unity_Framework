@@ -1,3 +1,16 @@
 {
-	"name": "MyFramework"
+    "name": "MyFramework",
+    "rootNamespace": "",
+    "references": [
+        "GUID:58c40d39a9a044168cec0840d4494583"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

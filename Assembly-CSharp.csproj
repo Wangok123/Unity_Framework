@@ -41,8 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Log/ILog.cs" />
-     <Compile Include="Assets/Log/ILogFactory.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.6f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -757,9 +755,13 @@
       <Project>{0b5e4b80-4d76-c0f0-0f0b-09d6e510f0bc}</Project>
       <Name>MyFramework</Name>
     </ProjectReference>
+    <ProjectReference Include="Log.csproj">
+      <Project>{ed8d991c-28d0-40c6-a8b3-f336a80d618b}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Log\Log.asmdef" />
+    <Folder Include="Assets" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
